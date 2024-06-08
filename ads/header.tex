@@ -105,9 +105,6 @@
 \usepackage{bookmark}
 \usepackage[nonumberlist,toc]{glossaries}
 
-% Generate glossary
-\makeglossaries{}
-
 % Load colors
 \defineColors{}
 
@@ -175,3 +172,6 @@
 % Spaces in tables
 \setlength{\tabcolsep}{\tableColumnMargin}
 \renewcommand{\arraystretch}{\tableRowMargin}
+
+%custom commands
+\newcommand{\myref}[2][default title]{\hyperref[#2]{Anhang \nameref{#2}}}

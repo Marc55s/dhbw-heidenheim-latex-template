@@ -2,6 +2,21 @@
 
 Dieses LaTeX Template ist für alle Arbeiten der Fakultät Informatik der DHBW Heidenheim geeignet.
 
+
+
+## Setup for VScode
+
+* Install Latex Workshop
+* Install LTeX languageTool
+* Install Docker
+
+
+* Setup based on this article [setup](https://www.doc.ic.ac.uk/~nuric/posts/coding/how-to-setup-vs-code-to-compile-latex-using-docker-containers/)
+
+### Changes
+* Glossary building is working now
+* Custom command for appendix: \myref{ANHANGLABEL}
+
 **Inhalt:**
 * [Templatestruktur](#templatestruktur)
 * [Document Types](#document-types)
